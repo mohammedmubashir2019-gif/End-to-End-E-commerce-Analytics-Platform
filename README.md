@@ -2,22 +2,21 @@
 
 ## Project Overview
 
-This project demonstrates the complete development of an end-to-end e-commerce analytics platform using Python, SQLite, and Power BI. The objective is to transform raw sales data into meaningful business insights through data cleaning, database management, analytical processing, interactive dashboards, and automated reporting.
+This project demonstrates the development of an end-to-end e-commerce analytics platform using Python, SQLite, and Power BI. The objective is to transform raw sales data into meaningful business insights through data cleaning, database management, analytical processing, interactive dashboards, and automated reporting.
 
 The project follows a complete analytics workflow beginning with data preprocessing in Python, storing the cleaned data in a SQLite database, performing business analysis using SQL queries, creating interactive Power BI dashboards, and generating automated analytical reports.
 
 ---
 
-## Objectives
+## Features
 
-The project aims to:
-
-- Clean and preprocess the raw e-commerce sales dataset.
-- Store the processed data in a SQLite database.
-- Perform SQL-based business analysis.
-- Analyse sales, profit, discount, quantity, customer segments, products, and regional performance.
-- Build interactive Power BI dashboards for business decision-making.
-- Generate an automated analytical report using Python.
+- Data cleaning and preprocessing using Python
+- SQLite database creation and management
+- SQL-based business analysis
+- Exploratory Data Analysis (EDA)
+- KPI calculation and performance analysis
+- Interactive Power BI dashboards
+- Automated analytical report generation
 
 ---
 
@@ -30,29 +29,27 @@ The project aims to:
 - Matplotlib
 - SQLite
 - SQL
-- Power BI
+- Microsoft Power BI
 
 ---
 
 ## Project Workflow
 
-The project consists of the following stages:
-
 1. Data loading and exploration
 2. Data cleaning and preprocessing
 3. SQLite database creation
 4. SQL business analysis
-5. Exploratory data analysis using Python
-6. Business KPI calculation
-7. Segment performance analysis
-8. Power BI dashboard development
+5. Exploratory data analysis
+6. KPI calculation
+7. Customer segment analysis
+8. Interactive Power BI dashboard development
 9. Automated report generation
 
 ---
 
 ## Dataset
 
-The project uses the Sample Superstore e-commerce sales dataset.
+The project uses the **Sample Superstore** e-commerce sales dataset.
 
 The cleaned dataset used for analysis is included in this repository.
 
@@ -60,7 +57,7 @@ The cleaned dataset used for analysis is included in this repository.
 
 ## Repository Structure
 
-```
+```text
 End-to-End-E-commerce-Analytics-Platform
 │
 ├── Cleaned_SampleSuperstore.xlsx
@@ -75,7 +72,7 @@ End-to-End-E-commerce-Analytics-Platform
 
 ## Project Components
 
-### Python
+### Python Analysis
 
 The Python notebook performs:
 
@@ -84,7 +81,7 @@ The Python notebook performs:
 - Data cleaning
 - Duplicate removal
 - Data validation
-- Exploratory data analysis
+- Exploratory Data Analysis (EDA)
 - SQLite database creation
 - SQL query execution
 - KPI calculation
@@ -97,32 +94,43 @@ The Python notebook performs:
 
 The SQLite database stores the cleaned dataset and supports SQL-based business analysis, including:
 
-- Total sales
-- Total profit
-- Total quantity
-- Average sales
-- Average profit
-- Average discount
-- Sales by category
-- Profit by category
-- Sales by region
-- Profit by region
-- Sales by segment
-- Top-performing states
-- Top-performing cities
+- Total Sales
+- Total Profit
+- Total Quantity Sold
+- Average Sales
+- Average Profit
+- Average Discount
+- Sales by Category
+- Profit by Category
+- Sales by Region
+- Profit by Region
+- Sales by Customer Segment
+- Top Performing States
+- Top Performing Cities
 
 ---
 
 ### Power BI Dashboard
 
-The Power BI report contains multiple interactive dashboard pages for analysing:
+The Power BI report includes multiple interactive dashboard pages covering:
 
-- Executive business performance
-- Product performance
-- Regional sales performance
-- Business insights
+- Executive Business Overview
+- Sales Performance
+- Product Performance
+- Regional Performance
+- Customer Segment Analysis
 
-The dashboard includes KPI cards, bar charts, treemaps, maps, scatter charts, tables, matrices, gauges, and slicers for interactive filtering.
+Dashboard visualizations include:
+
+- KPI Cards
+- Bar Charts
+- Treemaps
+- Maps
+- Scatter Charts
+- Tables
+- Matrices
+- Gauges
+- Interactive Slicers
 
 ---
 
@@ -130,45 +138,47 @@ The dashboard includes KPI cards, bar charts, treemaps, maps, scatter charts, ta
 
 ### Python Notebook
 
-1. Download or clone this repository.
-2. Open the `Sales Analysis.ipynb` notebook in Google Colab or Jupyter Notebook.
-3. Install the required Python libraries if they are not already available.
-4. Execute the notebook from the first cell to the last cell.
-5. The notebook will clean the dataset, perform analysis, create the SQLite database, and generate the required outputs.
+1. Clone or download this repository.
+2. Open **Sales Analysis.ipynb** in Google Colab or Jupyter Notebook.
+3. Install the required Python libraries if necessary.
+4. Run all notebook cells sequentially.
+5. The notebook will clean the dataset, perform analysis, create the SQLite database, and generate reports.
 
 ---
 
 ### SQLite Database
 
-1. Open `Ecommerce_Analytics.db` using any SQLite client such as DB Browser for SQLite.
-2. Explore the `sales_data` table.
-3. Execute SQL queries for business analysis if required.
+1. Open **Ecommerce_Analytics.db** using DB Browser for SQLite or any SQLite client.
+2. Explore the **sales_data** table.
+3. Execute SQL queries for business analysis.
 
 ---
 
 ### Power BI Dashboard
 
-1. Open `Sales Analysis.pbix` using Microsoft Power BI Desktop.
-2. If prompted, reconnect the dataset to the local `Cleaned_SampleSuperstore.csv` file.
-3. Refresh the data.
-4. Explore the interactive dashboard pages using the available slicers and filters.
+1. Open **Sales Analysis.pbix** in Microsoft Power BI Desktop.
+2. If prompted, reconnect the data source to the cleaned dataset.
+3. Refresh the data model.
+4. Explore the interactive dashboards using the available filters and slicers.
 
 ---
 
-## Project Outcomes
+## Key Skills Demonstrated
 
-The project demonstrates:
-
-- End-to-end data analytics workflow
-- Data preprocessing using Python
-- SQL database development using SQLite
-- Business analysis through SQL queries
-- KPI calculation and performance evaluation
-- Interactive dashboard development using Power BI
-- Automated reporting using Python
+- Data Cleaning and Preprocessing
+- Data Analysis with Python
+- SQL Database Design and Querying
+- SQLite Database Management
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+- KPI Development
+- Data Visualization
+- Interactive Dashboard Design
+- Business Reporting
+- Power BI Development
 
 ---
 
 ## Author
 
-Mohammed Mubashir
+**Mohammed Mubashir Ahmed**
